@@ -8,7 +8,9 @@
     "populate": "node backend/index.js",
     "batch-create": "node backend/batch-create.js",
     "list-projects": "node backend/list-projects.js",
-    "dry-run": "node backend/index.js --dry-run"
+    "dry-run": "node backend/index.js --dry-run",
+    "report-single": "node backend/report-single.js",
+    "report-all": "node backend/report-all.js"
   },
   "keywords": [
     "github",

@@ -805,6 +805,40 @@ FRIDAY - Week Closeout
 
 ## Reporting & Metrics
 
+### Automated Markdown Reports
+
+Generate comprehensive markdown reports for your projects with built-in commands.
+
+**Single Project Report:**
+```bash
+PROJECT_NUMBER=1 npm run report-single
+```
+
+Generates detailed report including:
+- 📊 Progress summary with completion percentages
+- 📋 Status breakdown (Backlog, To Do, In Progress, Done, Blocked)
+- 🎯 Phase breakdown with task lists
+- ⚡ Priority breakdown
+- 👥 Developer assignments
+
+**All Projects Portfolio Report:**
+```bash
+npm run report-all
+```
+
+Generates comprehensive portfolio overview including:
+- 📊 Executive summary across all projects
+- 🟢 Active projects table with progress bars
+- 📋 Detailed breakdown for each project
+- 🏥 Portfolio health indicators
+- ⚠️ Risk assessment
+
+**Output:** Reports saved to `reports/` directory as timestamped markdown files.
+
+**Full Guide:** See [REPORTING_GUIDE.md](REPORTING_GUIDE.md) for complete documentation.
+
+---
+
 ### Project Health Dashboard
 
 ```
