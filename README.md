@@ -91,10 +91,11 @@ github-project-populator/
 │       └── wordpress-project.config.js  # Template definition
 ├── frontend/                        # Future: Web dashboard
 ├── reference/
+│   ├── github_project_plan.md       # Detailed project plan
 │   └── wordpress-template.md        # Printable checklist
 ├── .env.example                     # Configuration template
 ├── package.json
-└── README.md
+└── README.md                        # This file
 ```
 
 ### Data Flow
@@ -952,6 +953,15 @@ POSSIBLE INTEGRATIONS
 | "Could not resolve ProjectV2" | Verify PROJECT_NUMBER exists |
 | Rate limiting | Increase delay in index.js |
 | Labels not creating | May already exist with different case |
+
+---
+
+---
+
+## Additional Documentation
+
+- **[Detailed Project Plan](reference/github_project_plan.md)** - Comprehensive guide with business context, team management, and workflow details
+- **[WordPress Template Reference](reference/wordpress-template.md)** - Printable checklist for all phases and tasks
 
 ---
 
